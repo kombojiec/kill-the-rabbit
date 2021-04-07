@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-/* @media (max-width: 1200px){
+@media (max-width: 1200px){
     .document{
         font-size: 8px;
     }
@@ -31,4 +31,4 @@
     .document{
         font-size: 4px;
     }
-}  */
+} 
