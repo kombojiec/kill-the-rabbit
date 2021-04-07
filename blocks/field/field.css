@@ -1,0 +1,6 @@
+.field{
+  position: relative;
+  border: 1rem groove red;
+  width: 50rem;
+  height: 50rem;
+}

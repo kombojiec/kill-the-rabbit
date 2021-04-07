@@ -1,0 +1,12 @@
+.field__img{
+  display: none;
+  object-fit: contain;
+  object-position: center;
+  position: absolute;
+  top: 20px;
+  left: 2px;
+}
+
+.field__img:hover{
+  cursor: pointer;
+}

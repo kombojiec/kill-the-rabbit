@@ -1,0 +1,28 @@
+.field__button{
+  font-size: 3rem;
+  color: red;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: 0 0 0.5rem red;
+}
+
+.field__button:hover{
+  box-shadow: 0 0 1.5rem red;
+}
+
+.field__button:active{
+  box-shadow: 0 0 2rem rgb(251, 44, 44);
+  color: rgb(167, 67, 67);
+  transform: scale(0.9);
+  border: none;
+  outline: none;
+}
+
+.field__button:focus{
+  border: none;
+  outline: none;
+}

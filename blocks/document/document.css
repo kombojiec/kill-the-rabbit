@@ -1,0 +1,34 @@
+.document{
+    margin: 0 auto;
+    padding: 0;
+    font-size: 10px;
+    font-family: 'Circle', sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    color: red;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1200px){
+    .document{
+        font-size: 8px;
+    }
+} 
+
+@media (max-width: 568px){
+    .document{
+        font-size: 6px;
+    }
+} 
+
+@media (max-width: 420px){
+    .document{
+        font-size: 5px;
+    }
+} 
+
+@media (max-width: 320px){
+    .document{
+        font-size: 4px;
+    }
+} 
