@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function(){
     const rabbitSize = generateRabbit();    
     let top = generateNumber(0, fieldHeight) - rabbitSize;
     if(top < 0){top = 0};
-    let left = generateNumber(0, fieldHeight) - rabbitSize;
+    let left = generateNumber(0, fieldWidth) - rabbitSize;
     if(left < 0){left = 0};
     rabbit.style.top = top + 'px';
     rabbit.style.left = left + 'px';
